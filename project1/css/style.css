@@ -1,0 +1,331 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --color-black: black;
+    --color-bsecond: #181818;
+    --color-white: white;
+    --color-secondary: #f9982d;
+    --color-primary: #f1592a; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR ****************************/
+
+.navbar{
+    background-color: black;
+    height: 8rem;
+    width: 100%;
+}
+
+
+/* MAIN-CONTENT ****************************/
+
+#main-content{
+    width: 90%;
+    margin: 00 auto;
+    display: flex;
+}
+
+.main-content_rigth{
+    flex: 2;
+    margin-top: 4.5rem;
+}
+
+.header-illustration{
+    height: 38rem;
+    width: 100%;
+    background-color: black;
+}
+
+.header-illustration img{
+    height: 38rem;
+    object-fit: cover;
+}
+
+.header-illustration-small{
+    display: flex;
+}
+
+.header-illustration-small div{
+    flex: 1;
+    margin: 1rem;
+    height: 8rem;
+    background-color: black;
+    cursor: pointer;
+}
+
+.small-illustration img{
+    height: 8rem;
+    object-fit: cover;
+}
+
+.small-illustration img:focus{
+    border: 1rem solid red;
+    height: 8rem;
+    width: 100%;
+}
+
+.block-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.block-content_left{
+    /* flex: 2; */
+    border: .1rem solid #ccc;
+    min-height: 10rem;
+}
+
+.block-content_left-header{
+    border-bottom: .1rem solid #ccc;
+    padding: 1.2rem;
+}
+
+.block-content_left-header h2{
+    font-size: 2.4rem;
+}
+
+.block-content_left-body ul{
+    display: flex;
+}
+
+.block-content_left-body ul li{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    padding: 1rem;
+    border: .1rem solid black;
+    cursor: pointer;
+}
+
+.block-content_left-body ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.card-article{
+    display: flex;
+    padding: 1.4rem;
+}
+
+.card-article-illustration{
+    flex: 2;
+    height: 15rem;
+    background-color: white;
+}
+
+.card-article-illustration img{
+    height: 12rem;
+    background-color: #ccc;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-article-illustration > div{
+    display: flex;
+    margin-top: -.5rem;
+}
+
+.card-article-illustration > div a{
+    font-size: 1.3rem;
+    flex: 1;
+    text-align: center;
+    border: .1rem solid #ccc;
+    padding: .5rem;
+}
+
+
+.card-article-info{
+    flex: 3;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.card-article-info h2{
+    font-size: 1.7rem;
+}
+
+.card-article-info p{
+    font-size: 1.4rem;
+}
+
+.card-article-info-star{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    margin-top: 8rem;
+}
+
+.card-article-info-star .illustration{
+    display: flex;
+}
+
+.card-article-info-star .illustration img{
+    height: 2rem;
+}
+
+.card-article-info-star a{
+    float: right;
+    clear: both;
+}
+
+.block-content_left-footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: .1rem solid #ccc;
+}
+
+.block-content_left-footer a{
+    font-size: 1.4rem;
+}
+
+.block-content_right{
+    flex: 1;
+    margin-left: 2.5rem;
+}
+
+.right-card1{
+    border: .1rem solid #ccc;
+    height: 25rem;
+    width: 100%;
+}
+
+.right-card2{
+    border: .1rem solid #ccc;
+    height: 45rem;
+    width: 100%;
+    margin-top:2rem ;
+}
+
+.block-content_right-header{
+    border-bottom: .1rem solid #ccc;
+    padding: 1.5rem .8rem;
+}
+
+.block-content_right-header h3{
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content_left{
+    flex: 1;
+    margin-top: 4.5rem;
+    margin-left: 4rem;
+}
+
+
+.partOne{
+    min-height: 33rem;
+    border: .1rem solid #ccc;
+}
+
+.partWo{
+    min-height: 32rem;
+    border: .1rem solid #ccc;
+    margin-top: 3rem;
+}
+
+.partree{
+    min-height: 25rem;
+    border: .1rem solid #ccc;
+    margin-top: 3rem;
+}
+
+.partFour{
+    min-height: 24rem;
+    border: .1rem solid #ccc;
+    margin-top: 3rem;
+}
+
+.partOne-header,
+.partWo-header,
+.partree-header,
+.partFour-header{
+    border-bottom: .1rem solid #ccc;
+    padding: 1.5rem 1rem;
+}
+
+.partOne-header h3,
+.partWo-header h3,
+.partree-header h3,
+.partFour-header{
+    font-size: 2.4rem;
+}
+
+.partOne-body,
+.partWo-body,
+.partree-body
+.partFour-body{
+    padding: 2.3rem;
+}
+
+.form-block select,
+.form-block input[type=text],
+.form-block input[type=email],
+.form-block input[type=password]{
+    width: 100%;
+    min-height: 3rem;
+    border: .1rem solid rgb(37, 37, 37);
+    border-radius: 0rem;
+    margin-bottom: 1.7rem;
+    font-size: 1.4rem;
+    padding-left: 1.4rem;
+}
+
+.form-titre{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.form-block select:focus,
+.form-block input:focus{
+    outline: none;
+}
+
+.form-block input[type=submit]{
+    float: right;
+    clear: both;
+    padding: .6rem 1rem;
+}
+
+.form-block .label{
+    margin-top: 2rem;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
