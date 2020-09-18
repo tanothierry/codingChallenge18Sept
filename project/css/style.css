@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --color-black: black;
+    --color-bsecond: #181818;
+    --color-white: white;
+    --color-secondary: #f9982d;
+    --color-primary: #f1592a; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+
+/* SIDEBAR ****************************/
+
+
+.sidebar{
+    width: 20rem;
+    border-right: .2rem solid #ccc;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar-logo{
+    height: 15rem;
+    border-bottom: .1rem solid #ccc;
+    text-align: center;
+}
+
+.sidebar-logo img{
+    width: 13rem;
+    height: 5rem;
+    border: .1rem solid #ccc;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.menu-link-illustration{
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border: .13rem solid #ccc;
+}
+
+.menu-link-illustration img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.menu-link ul{
+    padding: 1.2rem;
+}
+
+.menu-link ul li{
+    list-style: none;
+    margin: 1rem 1.5rem;
+}
+
+.menu-link ul li a{
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+}
+
+.main-content{
+    margin-left: 20rem;
+    height: 100vh;
+}
+
+.navbar{
+    min-height: 5rem;
+    border-bottom: .1rem solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    align-items: center;
+}
+
+.navbar > div img{
+    height: 2rem;
+    height: 2rem;
+}
+
+.navbar-user{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-user div{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: .1rem solid #ccc;
+    margin: 0 1.5rem;
+    padding: .8rem;
+}
+
+.navbar-user a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.block-content{
+    margin: 4rem 3rem;
+}
+
+.header-title{
+    margin: 2rem 0;
+}
+
+.header-title h2{
+    font-size: 2.2rem;
+}
+
+.header-title p{
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+.title-info{
+    font-size: 1.3rem;
+    background-color: #ccc;
+    padding: .4rem .8rem;
+    border-radius: .4rem;
+    font-weight: 500;
+}
+
+.block-content-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.block-content-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-form{
+    flex: 4;
+    min-height: 15rem;
+    border: .2rem solid #ccc;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.card-charts{
+    flex: 3;
+    height: 35rem;
+    border: .2rem solid #ccc;
+    margin: 1rem;
+}
+
+.card-charts-header{
+    border-bottom: .1rem solid #ccc;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.card-charts-header-illustration a img{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: .4rem 1rem;
+}
+
+.form-group{
+    display: flex;
+}
+
+.form-block{
+    position: relative;
+    margin-top: 2rem;
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.form-block label{
+    position: absolute;
+    top: -1rem;
+    font-size: 1.45rem;
+    background-color: white;
+    left: 1rem;
+    padding: 0 .5rem;
+}
+
+.form-block input{
+    width: 100%;
+    height: 3.5rem;
+    border: .1rem solid black;
+    border-radius: 0rem;
+    padding: 0 1.5rem;
+}
+
+.form-block input[type='submit']{
+    border: .1rem solid black;
+    border-radius: 0rem;
+    padding: .4rem 1rem;
+    width: 5rem;
+    float: right;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
+
+.block-content-body{
+    min-height: 20rem;
+    border: .1rem solid #ccc;
+    margin-top: 4rem ;
+}
+
+.partOne{
+    border-bottom: .1rem solid #ccc;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.partOne-illustration a,
+.card-charts-header-illustration a {
+    text-decoration: none;
+}
+
+.partOne-illustration a img{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: .4rem 1rem;
+}
+
+.partWo{
+    display: flex;
+    padding: 2rem;
+}
+
+.partWo-form{
+    flex: 2;
+}
+
+.partWo-info{
+    flex: 5;
+    margin-left: 5rem;
+}
+
+.partWo-info p{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.block-content-body-adress{
+    display: flex;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.adress-link{
+    flex: 2
+}
+
+.adress-link h2{
+    margin-bottom: 2rem;
+}
+
+.adress-link ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    width: 70%;
+    border-bottom: .1rem solid #ccc;
+}
+
+.adress-link ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #181818;
+    margin-bottom: 1rem;
+
+}
+
+
+.adress-map{
+    flex: 3;
+    height: 30rem;
+    background-color: rgb(167, 168, 168);
+}
+
+.adress-map iframe{
+    height: 30rem;
+    width: 100%;
+}

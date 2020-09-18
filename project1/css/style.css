@@ -30,9 +30,54 @@ body{
 /* NAVBAR ****************************/
 
 .navbar{
-    background-color: black;
-    height: 8rem;
-    width: 100%;
+    background-color: white;
+    border-bottom: .1rem solid #ccc;
+    min-height: 8rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topnav ul{
+    border: .1rem solid #ccc;
+    width: 50%;
+    float: right;
+}
+
+.navbar-logo{
+    width: 15rem;
+    height: 6rem;
+    border: .1rem solid #ccc;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.topnav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1.4rem 1.2rem;
+}
+
+.topnav ul li a{
+    font-size: 1.4rem;
+}
+
+.navbar-menu{
+    margin-bottom: 1rem;
+}
+
+.navbar-menu ul li{
+    list-style: none;
+    padding: .8rem 3rem;
+    display: inline-block;
+    border: .1rem solid #ccc;
+    margin-right: 2rem;
+}
+
+.navbar-menu ul li a{
+    font-size: 1.7rem;
 }
 
 
@@ -227,15 +272,40 @@ body{
     font-size: 1.7rem;
 }
 
+.main-content-footer{
+    margin-top: 3.5rem;
+    width: 100%;
+    border: .1rem solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
 
+.main-content-footer h2{
+    flex: 1;
+    font-size: 2rem;
+}
 
+.main-content-footer form{
+    flex: 2;
+    height: 0;
+}
 
+.main-content-footer form > .form-group{
+    flex: 2;
+    margin-right: 1.5rem;
+}
 
+.footer-group{
+    display: flex;
+}
 
-
-
-
-
+.footer-group > .form-block{
+    flex: 3;
+}
+.footer-group .form-block:nth-child(2){
+    flex: 1;
+}
 
 
 
@@ -266,7 +336,7 @@ body{
 }
 
 .partFour{
-    min-height: 24rem;
+    min-height: 34rem;
     border: .1rem solid #ccc;
     margin-top: 3rem;
 }
@@ -282,13 +352,13 @@ body{
 .partOne-header h3,
 .partWo-header h3,
 .partree-header h3,
-.partFour-header{
+.partFour-header h3{
     font-size: 2.4rem;
 }
 
 .partOne-body,
 .partWo-body,
-.partree-body
+.partree-body,
 .partFour-body{
     padding: 2.3rem;
 }
@@ -328,4 +398,29 @@ body{
     color: black;
     font-size: 1.4rem;
     font-weight: 500;
+}
+
+/* FOOTER ********************************/
+
+
+.footer{
+    padding: 2rem;
+    width: 94.5%;
+    margin: 0 auto;
+}
+
+.footer ul{
+    border: .1rem solid #ccc;
+    width: 50%;
+    float: right;
+    margin-bottom: 2rem;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 1.5rem 1rem;
+}
+
+.footer ul li a{
+    font-size: 1.4rem;
 }
