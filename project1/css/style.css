@@ -54,14 +54,25 @@ body{
     margin: 2rem 0;
 }
 
+.navbar-logo img{
+    width: 100%;
+    height: 6rem;
+    object-fit: contain;
+}
+
 .topnav ul li{
     list-style: none;
     display: inline-block;
     padding: 1.4rem 1.2rem;
 }
 
+.topnav ul li:hover a{
+    color: #dc0a12;
+}
+
 .topnav ul li a{
     font-size: 1.4rem;
+    font-weight: 500;
 }
 
 .navbar-menu{
@@ -72,12 +83,28 @@ body{
     list-style: none;
     padding: .8rem 3rem;
     display: inline-block;
-    border: .1rem solid #ccc;
+    border: .1rem solid #dc0a12;
     margin-right: 2rem;
+    background-color: #dc0a12;
 }
 
 .navbar-menu ul li a{
     font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.navbar-menu ul li:hover{
+    background-color: white;
+    color: #dc0a12;
+    border: .1rem solid #dc0a12;
+    transition: all .3s;
+}
+
+.navbar-menu ul li:hover a{
+    color: #dc0a12;
+    transition: all .3s;
 }
 
 
@@ -97,12 +124,12 @@ body{
 .header-illustration{
     height: 38rem;
     width: 100%;
-    background-color: black;
 }
 
 .header-illustration img{
     height: 38rem;
     object-fit: cover;
+    width: 100%;
 }
 
 .header-illustration-small{
@@ -120,6 +147,7 @@ body{
 .small-illustration img{
     height: 8rem;
     object-fit: cover;
+    width: 100%;
 }
 
 .small-illustration img:focus{
@@ -135,7 +163,7 @@ body{
 }
 
 .block-content_left{
-    /* flex: 2; */
+    flex: 2;
     border: .1rem solid #ccc;
     min-height: 10rem;
 }
@@ -147,6 +175,7 @@ body{
 
 .block-content_left-header h2{
     font-size: 2.4rem;
+    color: #dc0a12;
 }
 
 .block-content_left-body ul{
@@ -197,6 +226,17 @@ body{
     text-align: center;
     border: .1rem solid #ccc;
     padding: .5rem;
+    text-decoration: none;
+}
+
+.download{
+    background-color: #e2e2e2;
+    color: #dc0a12;
+}
+
+.view{
+    background-color: #dc0a12; 
+    color: white; 
 }
 
 
@@ -208,6 +248,7 @@ body{
 
 .card-article-info h2{
     font-size: 1.7rem;
+    color: #dc0a12;
 }
 
 .card-article-info p{
@@ -266,10 +307,12 @@ body{
 .block-content_right-header{
     border-bottom: .1rem solid #ccc;
     padding: 1.5rem .8rem;
+    background-color: #1a1a1a;
 }
 
 .block-content_right-header h3{
     font-size: 1.7rem;
+    color: #dc0a12;
 }
 
 .main-content-footer{
